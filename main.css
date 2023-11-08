@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 75px;
+  width: 100%;
+   position: sticky;
+   top: 0;
+  
+}
+
+.navbar img {
+  width: 150px;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: 100px;
+}
+
+.navbar ul li a {
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 2px solid #e4b95b;
+}
+
+/*! ​‌‍‌we always put comment to make the code more readable ​*/
+/* ⁡⁣⁢⁣​‌‌‍here is the end of navbar​⁡ ====================================================================================*/
+
+.porfolio h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "IBM Plex Serif", serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.porfolio p {
+  margin: 50px;
+  color: silver;
+  text-align: center;
+}
+
+/*.father{
+    width: 600px;
+    display: flex;
+    justify-content:center ;
+}*/
+
+/* .porfolio-item{
+    width:200px;
+    color:#fff;
+    text-align: center;
+}*/
+
+
+
+
+
+.porfolio .father .container{
+/*! write your code here */
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+ 
+  
+}
+.First_Container {
+    display: flex;
+    /*! the default value is flex direction: row; */
+    gap: 20px 20px;
+}
